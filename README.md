@@ -51,6 +51,13 @@ RLS policies in `rls.sql` assume event-scoped access by request header:
 - Basic config file: `/Users/sasayuta/Documents/Overlap-time/vercel.json`
 - Detailed runbook: `/Users/sasayuta/Documents/Overlap-time/docs/vercel-deploy-runbook.md`
 - Security headers are configured in `/Users/sasayuta/Documents/Overlap-time/next.config.mjs`
+- Current status: Vercel env vars are not set yet, so persistence is unstable until Supabase keys are added.
+
+## Hosting fallback
+- Unified fallback runbook: `/Users/sasayuta/Documents/Overlap-time/docs/hosting-fallback-runbook.md`
+- Netlify config: `/Users/sasayuta/Documents/Overlap-time/netlify.toml`
+- Render config: `/Users/sasayuta/Documents/Overlap-time/render.yaml`
+- Self-host (CloudHost/Sakura) container config: `/Users/sasayuta/Documents/Overlap-time/Dockerfile`
 
 ## Next work items
 1. Add participant list sync via realtime (currently overlay-focused).
